@@ -447,7 +447,7 @@ productCloseBtn.onclick = () => {
 let contactForm = document.querySelector('#contact-form');
 contactForm.onsubmit = () => {
 
-    (function(){
+    (function () {
         emailjs.init("hSbA4_Z7ouleZXsYk"); //Account Public key
     })();
 
@@ -457,13 +457,25 @@ contactForm.onsubmit = () => {
     let params = {
         sendername: document.querySelector('#name').value,
         senderemail: document.querySelector('#email').value,
+        sendernumber: document.querySelector('#number').value,
         sendersubject: document.querySelector('#subject').value,
         sendermessage: document.querySelector('#message').value,
     }
 
     emailjs.send(serviceId, templateId, params)
-    .then(res => {
-        alert('Sent Successfuly dear...' + params.sendername);
-    })
-    .catch(res => alert('Failed'));
+        .then(res => {
+
+                document.querySelector('#name').value = '',
+                document.querySelector('#email').value = '',
+                document.querySelector('#number').value = '',
+                document.querySelector('#subject').value = '',
+                document.querySelector('#message').value = '',
+
+                console.log('kjkjkj');
+
+            alert('Sent Successfuly dear...' + params.sendername);
+
+        })
+        .catch(res => alert('Failed'));
+
 };
