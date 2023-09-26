@@ -1372,18 +1372,30 @@ form button {
     
 }
 @media (max-width: 400px) {
-    .product-content {
-        padding: 0 8%;
+    .product-content.deals .box{
+        gap: 0;
+    }
+    .product-box .content{
+        width: 90%;
+        margin: 0 auto;
+    }
+    .product-box .contact .img-box{
+        overflow: hidden;
     }
     .product-content .content .img-box {
         min-height: 15rem;
-        max-height: 28rem;
-        height: 100%;
+        max-height: 32rem;
+        overflow: hidden;
     }
-
     .product-content.deals .content .img-box {
         min-height: 15rem;
-        max-height: 28rem;
+        max-height: 32rem;
+    }
+    .product-box .content{
+        height: 42rem;
+    }
+    .product-box .content .details{
+        min-height: 10rem;
     }
     .product-content.deals .product-box.deals {
         grid-template-columns: 1fr;
@@ -1413,4 +1425,8 @@ form button {
     .details .price{
         font-size: 1.3rem;
     }
+    .product{
+        margin-top: 16rem;
+    }
+   
 }
