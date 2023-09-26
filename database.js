@@ -1,7 +1,7 @@
 const productList = [
     {
         id: 'p01',
-        img: "/image/product/product1.jpeg",
+        img: "image/product/product1.jpeg",
         title: 'Title which come here',
         price: {
             discountPrice: 3200,
@@ -13,7 +13,7 @@ const productList = [
     },
     {
         id: 'p02',
-        img: "/image/product/product2.jpeg",
+        img: "image/product/product2.jpeg",
         title: 'Title which come here',
         price: {
             discountPrice: 3200,
@@ -25,7 +25,7 @@ const productList = [
     },
     {
         id: 'p03',
-        img: "/image/product/product3.jpeg",
+        img: "image/product/product3.jpeg",
         title: 'Title which come here',
         price: {
             discountPrice: 3200,
@@ -37,7 +37,7 @@ const productList = [
     },
     {
         id: 'p04',
-        img: "/image/product/product4.jpeg",
+        img: "image/product/product4.jpeg",
         title: 'Title which come here',
         price: {
             discountPrice: 3200,
@@ -49,7 +49,7 @@ const productList = [
     },
     {
         id: 'p05',
-        img: "/image/product/product5.jpeg",
+        img: "image/product/product5.jpeg",
         title: 'Title which come here',
         price: {
             discountPrice: 3200,
@@ -61,7 +61,7 @@ const productList = [
     },
     {
         id: 'p06',
-        img: "/image/product/product6.jpeg",
+        img: "image/product/product6.jpeg",
         title: 'Title which come here',
         price: {
             discountPrice: 3200,
@@ -73,7 +73,7 @@ const productList = [
     },
     {
         id: 'p07',
-        img: "/image/product/product7.jpeg",
+        img: "image/product/product7.jpeg",
         title: 'Title which come here',
         price: {
             discountPrice: 3200,
@@ -85,7 +85,7 @@ const productList = [
     },
     {
         id: 'p08',
-        img: "/image/product/product8.jpeg",
+        img: "image/product/product8.jpeg",
         title: 'Title which come here',
         price: {
             discountPrice: 3200,
@@ -97,7 +97,7 @@ const productList = [
     },
     {
         id: 'p09',
-        img: "/image/product/product9.jpeg",
+        img: "image/product/product9.jpeg",
         title: 'Title which come here',
         price: {
             discountPrice: 3200,
@@ -109,7 +109,7 @@ const productList = [
     },
     {
         id: 'p10',
-        img: "/image/product/product10.jpeg",
+        img: "image/product/product10.jpeg",
         title: 'Title which come here',
         price: {
             discountPrice: 3200,
@@ -121,7 +121,7 @@ const productList = [
     },
     {
         id: 'p11',
-        img: "/image/product/product11.jpeg",
+        img: "image/product/product11.jpeg",
         title: 'Title which come here',
         price: {
             discountPrice: 3200,
@@ -133,7 +133,7 @@ const productList = [
     },
     {
         id: 'p12',
-        img: "/image/product/product12.jpeg",
+        img: "image/product/product12.jpeg",
         title: 'Title which come here',
         price: {
             discountPrice: 3200,
@@ -145,7 +145,7 @@ const productList = [
     },
     {
         id: 'p13',
-        img: "/image/product/product13.jpeg",
+        img: "image/product/product13.jpeg",
         title: 'Title which come here',
         price: {
             discountPrice: 3200,
@@ -157,7 +157,7 @@ const productList = [
     },
     {
         id: 'p14',
-        img: "/image/product/product14.jpeg",
+        img: "image/product/product14.jpeg",
         title: 'Title which come here',
         price: {
             discountPrice: 3200,
@@ -169,7 +169,7 @@ const productList = [
     },
     {
         id: 'p15',
-        img: "/image/product/product15.jpeg",
+        img: "image/product/product15.jpeg",
         title: 'Title which come here',
         price: {
             discountPrice: 3200,
@@ -181,7 +181,7 @@ const productList = [
     },
     {
         id: 'p16',
-        img: "/image/product/product16.jpeg",
+        img: "image/product/product16.jpeg",
         title: 'Title which come here',
         price: {
             discountPrice: 3200,
