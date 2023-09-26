@@ -1395,7 +1395,7 @@ form button {
         height: 43rem;
     }
     .product-box .content .details{
-        min-height: 10rem;
+        min-height: 11rem;
     }
     .product-content.deals .product-box.deals {
         grid-template-columns: 1fr;
@@ -1423,7 +1423,8 @@ form button {
         font-size: 1.4rem;
     }
     .details .price{
-        font-size: 1.3rem;
+        font-size: 1.5rem;
+        font-weight: 600;
     }
     .product{
         margin-top: 16rem;
